@@ -1,0 +1,14 @@
+Array
+(
+    [0] => Array
+        (
+            [query] => select count(*) as aggregate from `mf_schemes` where `scheme_name` like ?
+            [bindings] => Array
+                (
+                    [0] => %gm%
+                )
+
+            [time] => 31.8
+        )
+
+)
